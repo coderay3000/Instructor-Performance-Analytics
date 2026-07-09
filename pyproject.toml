@@ -1,0 +1,11 @@
+[project]
+name = "instructor_performance_analytics"
+version = "0.1.0"
+description = "An MLOps project for productionizing models"
+authors = [{name = "Ayush Yadav", email = "ayush1337yadav@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
